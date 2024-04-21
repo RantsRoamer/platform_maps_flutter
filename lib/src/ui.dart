@@ -14,6 +14,9 @@ enum MapType {
 
   /// Hybrid tiles (satellite images with some labels/overlays)
   hybrid,
+
+  /// Street View
+  streetview,
 }
 
 // Used with [PlatformMapOptions] to wrap min and max zoom. This allows
